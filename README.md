@@ -48,6 +48,21 @@
 
 ---
 
+### **📑 Danh sách công việc thực hiện **
+
+- [x] 1. Nghiên cứu lý thuyết: Tìm hiểu khái niệm Clickjacking, phân tích nguyên nhân và cơ chế hoạt động của Clickjacking, tìm hiểu các phương pháp phòng chống:
+- [x] 2. Chuẩn bị môi trường thực nghiệm: Cài đặt Ubuntu Server trên VMware Workstation, Cài đặt Apache2 Web Server, Thiết lập mạng giữa máy Windows và Ubuntu, Kiểm tra khả năng truy cập Website.
+- [x] 3. Xây dựng Website nạn nhân (Victim Website): Thiết kế giao diện HTML, Tạo Form nhập thông tin, Viết JavaScript xử lý dữ liệu nhập, Đưa Website lên Apache.
+- [x] Chỉnh sửa nội dung của một công việc.
+- [x] 4. Xây dựng Website tấn công: Tạo Website Attacker, Nhúng Website nạn nhân bằng thẻ <iframe>, Thiết kế giao diện giả mạo, Thực hiện mô phỏng Clickjacking.
+- [x] 5. Thực hiện tấn công Clickjacking: Chạy Website Victim, Chạy Website Attacker, Kiểm tra khả năng nhúng Website, Chụp ảnh minh họa quá trình tấn công.
+- [x] 6. Triển khai biện pháp phòng chống: Kích hoạt module headers của Apache, Cấu hình Header: X-Frame-Options: DENY, Khởi động lại Apache.
+- [x] 7. Kiểm tra sau khi cấu hình: Kiểm tra HTTP Response Header, Xác nhận trình duyệt từ chối iframe, Chụp ảnh kết quả sau khi cấu hình.
+- [x] 8. Phân tích và đánh giá: So sánh trước và sau khi áp dụng X-Frame-Options, Đánh giá hiệu quả của giải pháp, So sánh X-Frame-Options với CSP frame-ancestors, Rút ra ưu điểm, nhược điểm.
+- [x] 9. Hoàn thiện báo cáo: Viết báo cáo, Chèn hình ảnh minh họa, Trình bày mã nguồn, Viết kết luận và tài liệu tham khảo.
+
+---
+
 ### **🖼️ Danh sách hình ảnh trong đề tài**
 
 **Hình 1: Sơ đồ mô hình hệ thống demo Clickjacking:**
