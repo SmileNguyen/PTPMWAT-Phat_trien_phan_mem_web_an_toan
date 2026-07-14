@@ -78,7 +78,7 @@
 **Hình 6: Trình duyệt Microsoft Edge thực thi chỉ thị DENY và chặn đứng hoàn toàn mã độc nhúng trang:**
 ![Trình duyệt Microsoft Edge thực thi](./scrs/H5.png)
 
-
+---
 
 
 
