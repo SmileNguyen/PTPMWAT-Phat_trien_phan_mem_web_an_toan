@@ -21,6 +21,16 @@
 - **Thành viên 2 :** Nguyễn Danh Thái
 - **Thành viên 3 :** Trần Thiên Thành
 - **Thành viên 4 :** Nguyễn Vũ Thái
+  
+### **🔎 Nhiệm vụ của từng thành viên**
+
+| Tên thành viên | Nhiệm vụ chính |
+|-----------------|----------------|
+| Nguyễn Trần Tài  | Lập trình, thiết kế trang web, Demo chương trình và đưa ra báo cáo cho nhóm |
+| Hoàng Đức Anh    | Thiết kế và hoàn thiện báo cáo cho nhóm |
+| Nguyễn Danh Thái | [ Đang sắp xếp ] |
+| Trần Thiên Thành | [ Đang sắp xếp ] |
+| Nguyễn Vũ Thái   | [ Đang sắp xếp ] |
 
 ---
 
