@@ -48,7 +48,53 @@
 
 ---
 
-### **🖥️ Sơ đồ mô hình hệ thống Demo Clickjacking**
+### **🖼️ Danh sách hình ảnh trong đề tài**
 
 **Hình 1: Sơ đồ mô hình hệ thống demo Clickjacking:**
 ![Sơ đồ mô hình](./scrs/sodo.png)
+
+=
+
+**Hình 2: Website nạn nhân:**
+![Website nạn nhân](./scrs/H1.png)
+
+=
+
+**Hình 3: Website bị nhúng trong iframe:**
+![Website bị nhúng trong iframe](./scrs/H2.png)
+
+=
+
+**Hình 4: Mô phỏng Clickjacking:**
+![Mô phỏng Clickjacking](./scrs/H3.png)
+
+=
+
+**Hình 5: Header X-Frame-Options:**
+![Header X-Frame-Options](./scrs/H4.png)
+
+=
+
+**Hình 6: Trình duyệt Microsoft Edge thực thi chỉ thị DENY và chặn đứng hoàn toàn mã độc nhúng trang:**
+![Trình duyệt Microsoft Edge thực thi](./scrs/H5.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
