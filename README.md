@@ -50,3 +50,5 @@
 
 ### **🖥️ Sơ đồ mô hình hệ thống Demo Clickjacking**
 
+**Hình 1: Sơ đồ mô hình hệ thống demo Clickjacking:**
+![Sơ đồ mô hình](./scrs/sodo.png)
