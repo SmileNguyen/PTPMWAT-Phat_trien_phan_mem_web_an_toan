@@ -26,8 +26,8 @@
 
 | Tên thành viên | Nhiệm vụ chính |
 |-----------------|----------------|
-| Nguyễn Trần Tài  | Lập trình, thiết kế trang web, Demo chương trình và đưa ra báo cáo cho nhóm |
-| Hoàng Đức Anh    | Thiết kế và hoàn thiện báo cáo cho nhóm |
+| Nguyễn Trần Tài  | Lập trình, thiết kế trang web, chuẩn bị máy ảo cho Demo chương trình và đưa ra báo cáo cho nhóm |
+| Hoàng Đức Anh    | Xây dựng, thiết kế, chỉnh sửa và hoàn thiện báo cáo của nhóm |
 | Nguyễn Danh Thái | [ Đang sắp xếp ] |
 | Trần Thiên Thành | [ Đang sắp xếp ] |
 | Nguyễn Vũ Thái   | [ Đang sắp xếp ] |
