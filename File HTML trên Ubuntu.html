@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin Nhận Quà</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #result {
+            margin-top: 15px;
+            padding: 10px;
+            background: #e9ffe9;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Điền Thông Tin Để Nhận Quà Tặng</h2>
+
+    <form id="infoForm">
+        <label>Họ và tên của bạn</label>
+        <input type="text" id="fullname" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Số điện thoại</label>
+        <input type="tel" id="phone">
+
+        <label>Địa chỉ nhận quà</label>
+        <textarea id="address" rows="3"></textarea>
+
+        <button type="submit">Gửi</button>
+		
+		 <h5>Trang Website Demo
+<br>
+		 (CHỐNG CLICKJACKING BẰNG CONTENT SECURITY POLICY (CSP) VÀ X-FRAME-OPTIONS)
+		 
+		 </h5>
+		
+		<h3>
+		Copyright © 2026 by YKN . Do not re-up !
+		</h3>
+		
+		
+		
+    </form>
+
+    <div id="result"></div>
+</div>
+
+<script>
+document.getElementById("infoForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const fullname = document.getElementById("fullname").value;
+    const email = document.getElementById("email").value;
+    const phone = document.getElementById("phone").value;
+    const address = document.getElementById("address").value;
+
+    const result = document.getElementById("result");
+    result.style.display = "block";
+    result.innerHTML = `
+        <h3>Thông tin đã gửi:</h3>
+        <p><strong>Họ tên:</strong> ${fullname}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Số điện thoại:</strong> ${phone}</p>
+        <p><strong>Địa chỉ:</strong> ${address}</p>
+    `;
+});
+</script>
+
+</body>
+</html>
