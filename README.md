@@ -13,3 +13,14 @@
 - **Khóa :** 2024-2027
 
 ---
+
+### **🧑‍💻 Thông tin các thành viên trong nhóm**
+
+- **Nhóm trưởng :** Nguyễn Trần Tài
+- **Thành viên 1 :** Hoàng Đức Anh
+- **Thành viên 2 :** Nguyễn Danh Thái
+- **Thành viên 3 :** Trần Thiên Thành
+- **Thành viên 4 :** Nguyễn Vũ Thái
+
+---
+
