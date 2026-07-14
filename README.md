@@ -34,3 +34,17 @@
 
 ---
 
+### **🖥️ Môi trường sử dụng**
+
+| Thành phần | Phiên bản sử dụng |
+|-----------------|----------------|
+| Ubuntu    | Ubuntu 20.04 LTS |
+| Apache    | 2.4 |
+| Browser   | Microsoft Edge |
+| IDE       | VS Code |
+| VMware    | Workstation 17 Pro (17.5.0 build-22583795) |
+| HTML      | HTML5 |
+| CSS       | CSS3 |
+
+---
+
