@@ -146,6 +146,8 @@ Ví dụ:
 
 Địa chỉ IP này sẽ được sử dụng để truy cập Website từ máy Windows.
 
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+
 **3. Khởi động Apache**
 
 Kiểm tra trạng thái Apache:
@@ -172,6 +174,8 @@ Kiểm tra:
 active (running)
 ```
 
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+
 **4. Kiểm tra Website Victim**
 
 Trên Windows mở trình duyệt.
@@ -184,6 +188,7 @@ http://192.168.1.224
 
 Nếu cấu hình đúng sẽ xuất hiện Website:
 
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
 
 **5. Chạy Website Attacker**
 
@@ -207,8 +212,50 @@ Website sẽ hiển thị:
 
 và nhúng Website Victim bằng iframe.
 
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
 
+**6. Thực hiện mô phỏng Clickjacking**
+Người dùng truy cập Website Attacker.
 
+Website Victim được tải bên trong:
+
+```bash
+<iframe src="http://192.168.1.224"></iframe>
+```
+
+Người dùng tưởng rằng đang thao tác trên Website Attacker nhưng thực tế lại đang nhấp chuột lên Website Victim.
+
+Điều này mô phỏng thành công cuộc tấn công Clickjacking.
+
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+
+**7. Cấu hình chống Clickjacking**
+
+Mở file cấu hình Apache:
+
+```bash
+sudo nano /etc/apache2/sites-available/000-default.conf
+```
+
+Thêm:
+
+```bash
+Header always set X-Frame-Options "DENY"
+```
+
+Ví dụ:
+
+```bash
+<VirtualHost *:80>
+
+DocumentRoot /var/www/html
+
+Header always set X-Frame-Options "DENY"
+
+</VirtualHost>
+```
+
+Lưu file.
 
 
 
