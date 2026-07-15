@@ -172,14 +172,40 @@ Kiểm tra:
 active (running)
 ```
 
+**4. Kiểm tra Website Victim**
+
+Trên Windows mở trình duyệt.
+
+Truy cập:
+
+```bash
+http://192.168.1.224
+```
+
+Nếu cấu hình đúng sẽ xuất hiện Website:
 
 
+**5. Chạy Website Attacker**
 
+Mở thư mục chứa Website tấn công.
 
+Ví dụ:
 
+```bash
+Attack/index.html
+```
 
+Mở bằng Google Chrome.
 
+Hoặc chạy bằng VS Code Live Server.
 
+Website sẽ hiển thị:
+
+```bash
+🎁 ĐIỀN THÔNG TIN ĐỂ NHẬN QUÀ MIỄN PHÍ 🎁
+```
+
+và nhúng Website Victim bằng iframe.
 
 
 
