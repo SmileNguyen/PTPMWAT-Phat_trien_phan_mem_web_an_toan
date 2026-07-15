@@ -315,23 +315,60 @@ because it set 'X-Frame-Options' to 'DENY'
 
 Nhấn:
 
+```bash
 F12
+```
 
 Chọn:
 
+```bash
 Console
+```
 
 Hoặc
 
+```bash
 Network
+```
 
 Có thể quan sát thông báo:
 
+```bash
 Refused to display
+```
 
 hoặc
 
+```bash
 Refused to frame
+```
+
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+
+**12. Kiểm tra bằng OWASP ZAP (nếu có)**
+
+Mở OWASP ZAP.
+
+Thực hiện quét Website.
+
+Quan sát:
+
+- HTTP Response Header
+- Security Header
+- Alerts
+
+Xác nhận Website đã bổ sung Header bảo mật X-Frame-Options và đánh giá các cảnh báo còn lại.
+
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+
+**13. Kết quả mong đợi**
+
+- Máy chủ Apache hoạt động bình thường.
+- Website Victim truy cập được từ máy Windows.
+- Website Attacker nhúng được Website Victim trước khi cấu hình bảo mật.
+- Sau khi cấu hình *X-Frame-Options: DENY*, trình duyệt từ chối nhúng Website trong iframe.
+- Kiểm tra bằng *curl* cho thấy Header bảo mật đã được gửi.
+- Việc mô phỏng thành công minh họa rõ cơ chế tấn công Clickjacking và hiệu quả của biện pháp phòng chống.
 
 
 
