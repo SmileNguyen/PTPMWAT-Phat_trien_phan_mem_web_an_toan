@@ -412,17 +412,17 @@ Xác nhận Website đã bổ sung Header bảo mật X-Frame-Options và đánh
 
 ---
 
-Copyright 2026 © Do not copy | Bài tập hoàn thành lúc: Wednesday, July 15, 2026 at 10:51 AM
+Copyright 2026 © Do not copy ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀|⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ Bài tập hoàn thành lúc: Wednesday, July 15, 2026 at 10:51 AM
 
 <h2>Thông tin liên hệ của các thành viên trong nhóm</h2>
 
 | Tên thành viên | Mã sinh viên | Ngày tháng năm sinh | Email | SĐT |
 |-----------------|-------------|---------------------|-------|-----|
 | Nguyễn Trần Tài  | 2472020054 | 29/11/2004 | admin@pekoteam.site | [ Đang cập nhật ] |
-| Hoàng Đức Anh    | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] |
-| Nguyễn Danh Thái | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] |
-| Trần Thiên Thành | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] |
-| Nguyễn Vũ Thái   | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] |
+| Hoàng Đức Anh    | 2472020001 | 27/10/2004 | [ Đang cập nhật ] | [ Đang cập nhật ] |
+| Nguyễn Danh Thái | 2472020056 | 14/10/2004 | [ Đang cập nhật ] | [ Đang cập nhật ] |
+| Trần Thiên Thành | 2472020061 | 15/11/2004 | [ Đang cập nhật ] | [ Đang cập nhật ] |
+| Nguyễn Vũ Thái   | 2472020057 | 08/09/2004 | [ Đang cập nhật ] | [ Đang cập nhật ] |
 
 
 ---
