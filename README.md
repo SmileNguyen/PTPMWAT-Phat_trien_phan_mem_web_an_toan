@@ -412,12 +412,29 @@ Xác nhận Website đã bổ sung Header bảo mật X-Frame-Options và đánh
 
 ---
 
+Copyright 2026 © Do not copy | Bài tập hoàn thành lúc: Wednesday, July 15, 2026 at 10:51 AM
+
+<h2>Thông tin liên hệ của các thành viên trong nhóm</h2>
+
+| Tên thành viên | Mã sinh viên | Ngày tháng năm sinh | Email | SĐT |
+|-----------------|-------------|---------------------|-------|-----|
+| Nguyễn Trần Tài  | 2472020054 | 29/11/2004 | admin@pekoteam.site | [ Đang cập nhật ] |
+| Hoàng Đức Anh    | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] |
+| Nguyễn Danh Thái | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] |
+| Trần Thiên Thành | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] |
+| Nguyễn Vũ Thái   | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] | [ Đang cập nhật ] |
 
 
+---
 
+### 📊 Thống kê hoạt động:
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SmileNguyen&show_icons=true)
 
+### 📖 Ngôn ngữ phổ biến:
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SmileNguyen)
 
-
+### 👀 Số người đã xem:
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=SmileNguyen.repo)
 
 
 
