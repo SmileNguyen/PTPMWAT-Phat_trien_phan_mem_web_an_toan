@@ -265,7 +265,31 @@ Lưu file.
 sudo systemctl restart apache2
 ```
 
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
 
+**9. Kiểm tra Header**
+
+Nếu chưa cài curl:
+
+```bash
+sudo apt update
+sudo apt install curl -y
+```
+
+Sau đó:
+
+```bash
+curl -I http://localhost
+```
+
+Kết quả mong muốn:
+
+```bash
+HTTP/1.1 200 OK
+X-Frame-Options: DENY
+```
+
+Điều này chứng minh máy chủ đã gửi Header chống Clickjacking.
 
 
 
