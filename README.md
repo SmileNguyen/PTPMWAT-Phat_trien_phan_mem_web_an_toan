@@ -116,11 +116,11 @@
 
 **Phần mềm**
 
--VMware Workstation
--Ubuntu Server 20.04 hoặc 22.04
--Apache2
--Google Chrome hoặc Microsoft Edge
--Visual Studio Code (để chỉnh sửa mã nguồn)
+- VMware Workstation
+- Ubuntu Server 20.04 hoặc 22.04
+- Apache2
+- Google Chrome hoặc Microsoft Edge
+- Visual Studio Code (để chỉnh sửa mã nguồn)
 
 ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
 
