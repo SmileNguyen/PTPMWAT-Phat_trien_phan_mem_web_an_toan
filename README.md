@@ -105,6 +105,103 @@
 
 ---
 
+### 📟 Hướng dẫn chạy chương trình 
+
+**1. Chuẩn bị môi trường**
+
+**Phần cứng**
+- Máy tính cài Windows 10/11.
+- RAM tối thiểu: 8 GB (khuyến nghị 16 GB).
+- VMware Workstation.
+
+**Phần mềm**
+
+-VMware Workstation
+-Ubuntu Server 20.04 hoặc 22.04
+-Apache2
+-Google Chrome hoặc Microsoft Edge
+-Visual Studio Code (để chỉnh sửa mã nguồn)
+
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+
+**2. Khởi động máy ảo Ubuntu**
+
+Mở VMware Workstation.
+
+Khởi động máy ảo Ubuntu.
+
+Đăng nhập tài khoản Ubuntu.
+
+Kiểm tra địa chỉ IP:
+
+ ```bash
+hostname -I
+```
+
+Ví dụ:
+
+ ```bash
+192.168.1.224
+```
+
+Địa chỉ IP này sẽ được sử dụng để truy cập Website từ máy Windows.
+
+**3. Khởi động Apache**
+
+Kiểm tra trạng thái Apache:
+
+ ```bash
+sudo systemctl status apache2
+```
+
+Nếu Apache chưa chạy:
+
+ ```bash
+sudo systemctl start apache2
+```
+
+Hoặc:
+
+```bash
+sudo systemctl restart apache2
+```
+
+Kiểm tra:
+
+```bash
+active (running)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+---
+
+
+
+
+
 ### **🖼️ Danh sách hình ảnh trong đề tài**
 
 **Hình 1: Sơ đồ mô hình hệ thống demo Clickjacking:**
