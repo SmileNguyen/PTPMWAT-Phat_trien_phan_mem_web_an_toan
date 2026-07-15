@@ -257,8 +257,13 @@ Header always set X-Frame-Options "DENY"
 
 Lưu file.
 
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
 
+**8. Khởi động lại Apache**
 
+```bash
+sudo systemctl restart apache2
+```
 
 
 
