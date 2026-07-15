@@ -34,6 +34,48 @@
 
 ---
 
+### **📒 Giới thiệu đề tài**
+
+**1. Giới thiệu**
+
+- Trong thời đại chuyển đổi số, các ứng dụng web ngày càng được sử dụng rộng rãi trong nhiều lĩnh vực như thương mại điện tử, ngân hàng, giáo dục, y tế và các dịch vụ công trực tuyến. Cùng với sự phát triển đó, vấn đề bảo mật ứng dụng web ngày càng trở nên quan trọng nhằm bảo vệ thông tin người dùng và đảm bảo hệ thống hoạt động an toàn trước các cuộc tấn công trên Internet.
+
+- Một trong những hình thức tấn công phổ biến nhưng thường bị xem nhẹ là Clickjacking. Đây là kỹ thuật tấn công lợi dụng khả năng nhúng một trang web hợp pháp vào bên trong một trang web độc hại bằng thẻ iframe, sau đó sử dụng các kỹ thuật che giấu hoặc tạo giao diện giả nhằm đánh lừa người dùng thực hiện các thao tác ngoài ý muốn như nhấn nút, xác nhận giao dịch, thay đổi thông tin tài khoản hoặc cấp quyền truy cập. Người dùng thường không nhận biết được mình đang tương tác với trang web thật hay một lớp giao diện giả được tạo ra bởi kẻ tấn công.
+
+- Để phòng chống Clickjacking, các máy chủ web hiện nay thường sử dụng hai cơ chế bảo mật quan trọng là HTTP Header X-Frame-Options và Content Security Policy (CSP) với chỉ thị frame-ancestors. Các cơ chế này cho phép máy chủ kiểm soát việc trang web có được phép hiển thị bên trong iframe của các website khác hay không, từ đó ngăn chặn hiệu quả các cuộc tấn công Clickjacking.
+
+- Trong đề tài này, nhóm em tiến hành xây dựng một môi trường mô phỏng gồm máy chủ Ubuntu chạy Apache Web Server trên VMware, xây dựng website nạn nhân (Victim Website) và website tấn công (Attacker Website) để minh họa cơ chế hoạt động của Clickjacking. Sau đó tiến hành cấu hình các Header bảo mật trên Apache nhằm ngăn chặn việc nhúng website vào iframe và đánh giá hiệu quả của giải pháp thông qua quá trình kiểm thử thực tế.
+
+- Thông qua đề tài, nhóm em có cơ hội tìm hiểu nguyên lý hoạt động của lỗ hổng Clickjacking, cách triển khai các biện pháp phòng chống trên máy chủ Apache cũng như nâng cao kiến thức về bảo mật ứng dụng web theo các khuyến nghị của OWASP và các tiêu chuẩn bảo mật hiện đại.
+
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+
+**2. Lý do chọn đề tài**
+
+Đề tài "Chống Clickjacking bằng Content Security Policy (CSP) và X-Frame-Options – Demo tấn công và cách khắc phục" được nhóm em lựa chọn vì những lý do sau:
+
+- Clickjacking là một lỗ hổng bảo mật phổ biến, có thể gây ảnh hưởng nghiêm trọng đến người dùng và các ứng dụng web.
+- Các biện pháp phòng chống như X-Frame-Options và Content Security Policy (CSP) tương đối dễ triển khai nhưng mang lại hiệu quả bảo vệ cao.
+- Đề tài có thể xây dựng mô hình thực nghiệm đơn giản bằng Apache và VMware mà không yêu cầu hạ tầng phức tạp.
+- Phù hợp với nội dung môn học về phát triển phần mềm an toàn và bảo mật ứng dụng web.
+- Giúp người học tiếp cận quy trình từ mô phỏng tấn công, phát hiện lỗ hổng đến triển khai và đánh giá giải pháp phòng chống.
+
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+
+**3. Mục tiêu của đề tài**
+
+Đề tài nhóm em hướng đến các mục tiêu sau:
+
+- Tìm hiểu nguyên lý hoạt động của tấn công Clickjacking.
+- Xây dựng môi trường mô phỏng cuộc tấn công bằng Apache Web Server trên Ubuntu.
+- Thực hiện mô phỏng Clickjacking bằng kỹ thuật iframe.
+- Triển khai cơ chế phòng chống bằng X-Frame-Options và giới thiệu Content Security Policy (CSP).
+- Kiểm tra và đánh giá hiệu quả của các biện pháp bảo mật sau khi áp dụng.
+- Rút ra kinh nghiệm và đề xuất các khuyến nghị nhằm nâng cao an toàn cho các ứng dụng web.
+
+
+---
+
 ### **🖥️ Môi trường sử dụng**
 
 | Thành phần | Phiên bản sử dụng |
