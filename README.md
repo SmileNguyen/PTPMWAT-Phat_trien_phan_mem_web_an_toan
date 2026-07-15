@@ -291,8 +291,47 @@ X-Frame-Options: DENY
 
 Điều này chứng minh máy chủ đã gửi Header chống Clickjacking.
 
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
 
+**10. Kiểm tra kết quả**
 
+Mở lại Website Attacker.
+
+Lúc này trình duyệt sẽ từ chối tải Website Victim trong iframe.
+
+Google Chrome sẽ hiển thị thông báo tương tự:
+
+```bash
+Refused to display
+
+because it set 'X-Frame-Options' to 'DENY'
+```
+
+Điều này chứng minh cơ chế chống Clickjacking hoạt động thành công.
+
+⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+
+**11. Kiểm thử bằng Developer Tools**
+
+Nhấn:
+
+F12
+
+Chọn:
+
+Console
+
+Hoặc
+
+Network
+
+Có thể quan sát thông báo:
+
+Refused to display
+
+hoặc
+
+Refused to frame
 
 
 
